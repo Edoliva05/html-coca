@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    color: white;
+    height: 68px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 20px;
+
+}
+
+header img{
+    width: 150px;
+    height: 36px;
+}
+
+header .ico{
+    font-size: 35px;
+}
+
+.contenitore .img1{
+    background-image: url(CocaZero.jpeg);
+    height: 900px;
+    width: 100%;
+    background-position: center;
+}
+
+.contenitore-3img{
+    height: 640px;
+    width: 100%;
+    position: relative;
+}
+
+.contenitore-3img #imgSingola{
+    height: 640px;
+    width: 55%;
+    background-image: url(1img3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.contenitore-3img #imgDoppia{
+    height: 640px;
+    width: 45%;
+    float: right;
+    position: relative;
+}
+
+.contenitore-3img #imgDoppia #doppia{
+    width: 100%;
+    height: 320px;
+}
+
+
